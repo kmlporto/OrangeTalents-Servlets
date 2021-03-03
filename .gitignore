@@ -12,6 +12,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.project
+.classpath
 
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main

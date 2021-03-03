@@ -23,3 +23,7 @@ Algumas anotações sobre o curso de Servlets realizado pela Alura.
 * Usamos o RequestDispatcher para chamar um JSP a partir da servlet;
 * Obtemos o RequestDispatcher a partir do HttpServletRequest;
 * Usamos a requisição para colocar ou pegar um atributo (setAttribute(.., ..) ou getAttribute(..);
+
+## Quinto Módulo - JSTL e Expression Language
+* Expression Language - linguagem que torna o acesso dinâmico de dados mais simples, e podemos substituir alguns servlets por expression languages, marcado pelo uso de ${ };
+* JavaServer Pages Standard Taglib (JSTL) - biblioteca que podemos usar para recuperar dados de forma transparente, através de tags que trazem produtividade e simplicidade para arquivos JSP;
