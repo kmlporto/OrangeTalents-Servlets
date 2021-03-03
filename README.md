@@ -16,3 +16,10 @@ Algumas anotações sobre o curso de Servlets realizado pela Alura.
 
 ## Terceiro Módulo - Definindo nosso modelo
 * Aqui foi apenas criadas classes de modelo.
+
+## Quarto Módulo - Primeiro JSP
+* Java Server Pages (JSP) - linguagem de script, criada com o objetivo de gerar conteúdo dinâmico para páginas da internet. É possível escrever HTML com códigos JSP embutidos;
+* O código (scriptlet) <% %>  é executado no servidor antes de enviar a resposta para o navegador;
+* Usamos o RequestDispatcher para chamar um JSP a partir da servlet;
+* Obtemos o RequestDispatcher a partir do HttpServletRequest;
+* Usamos a requisição para colocar ou pegar um atributo (setAttribute(.., ..) ou getAttribute(..);
