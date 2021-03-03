@@ -13,3 +13,6 @@ Algumas anotações sobre o curso de Servlets realizado pela Alura.
 * Para enviar dados a partir do navegador podemos fazer isso de duas formas diferentes. A primeira delas é inserir parâmetros da requisição na URL, utilizando o método GET do protocolo HTTP;
 * GET pode não ser o mais adequado para alguns casos, como no caso de quando estamos trabalhando com parâmetros muito longos, ou no caso de quando não queremos mostrar esses parâmetros;
 * A segunda forma de enviar dados do navegador é através do método POST do protocolo HTTP, e é possível utilizar um form para receber os dados e assim enviar;
+
+## Terceiro Módulo - Definindo nosso modelo
+* Aqui foi apenas criadas classes de modelo.
