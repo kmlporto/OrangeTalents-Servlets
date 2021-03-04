@@ -11,11 +11,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/novaEmpresa")
-public class NovaEmpresaServlet extends HttpServlet {
+@WebServlet("/editaEmpresa")
+public class EditaEmpresaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String paramId = request.getParameter("id");
+		Integer id = Integer.parseInt(paramId);
 		String nomeEmpresa = request.getParameter("nome");
 		String dataEmpresa = request.getParameter("data");
 		
@@ -33,10 +35,9 @@ public class NovaEmpresaServlet extends HttpServlet {
 		empresa.setDataAbertura(dataAberturaEmpresa);
 		
 		Banco banco = new Banco();
-		banco.adicionarEmpresa(empresa);
+		banco.alterarEmpresa(id, empresa);
 		
 		response.sendRedirect("listaEmpresas");
-
 	}
 
 }
