@@ -27,3 +27,7 @@ Algumas anotações sobre o curso de Servlets realizado pela Alura.
 ## Quinto Módulo - JSTL e Expression Language
 * Expression Language - linguagem que torna o acesso dinâmico de dados mais simples, e podemos substituir alguns servlets por expression languages, marcado pelo uso de ${ };
 * JavaServer Pages Standard Taglib (JSTL) - biblioteca que podemos usar para recuperar dados de forma transparente, através de tags que trazem produtividade e simplicidade para arquivos JSP;
+
+## Sexto Módulo - Redirecionando o fluxo
+* Quando é utilizado o dispatcher para ir de um servlet para outro é feita apenas uma requisição, e o redirecionamento é realizado no lado do servidor podendo assim ser chamado de **Redirecionamento Server Side**;
+* Já quando devolvemos a resposta para o navegador e este, por sua vez, envia outra requisição a partir da resposta recebida. Esse tipo de redirecionamento é chamado de **Redirecionamento Client Side**, e é o mais recomendado;
