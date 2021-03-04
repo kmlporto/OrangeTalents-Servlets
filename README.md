@@ -31,3 +31,12 @@ Algumas anotações sobre o curso de Servlets realizado pela Alura.
 ## Sexto Módulo - Redirecionando o fluxo
 * Quando é utilizado o dispatcher para ir de um servlet para outro é feita apenas uma requisição, e o redirecionamento é realizado no lado do servidor podendo assim ser chamado de **Redirecionamento Server Side**;
 * Já quando devolvemos a resposta para o navegador e este, por sua vez, envia outra requisição a partir da resposta recebida. Esse tipo de redirecionamento é chamado de **Redirecionamento Client Side**, e é o mais recomendado;
+
+## Sétimo Módulo - Arquivo web.xml e Inversão de controle
+* Apesar de  ter se tornado obsoleto por conta das anotações, uma vantagem do arquivo é tornar possível realizar todas as configurações em um só lugar;
+* Dentre configurações possíveis no arquivo, é possível:
+	* indicar qual arquivo será exibido como 'home' de seu projeto, através da tag welcome-file;
+	* definir classes de servlets, dá nomes e mapear rotas para os mesmos;
+	* restringir páginas para um determinado usuário logado;
+* Inversão de Controle - ocorre quando ao invés de se criar explicitamente um código, ou acompanhar todo o ciclo de vida de uma execução, o programador tem tudo isso de forma transparente;
+* No caso do projeto em questão, o TomCat faz essa inversão de controle;
